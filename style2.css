@@ -1,0 +1,143 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+    background: linear-gradient(#3CC47C, white, #FF533D);
+    box-sizing: border-box;
+    border-bottom: 2px solid #000000;
+}
+.titulo {
+    font-size: 50px;
+    position: absolute;
+    left: 600px;
+    top: 105px;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px whitesmoke;  
+}
+.subtitulo {
+    font-size: 30px;
+    position: absolute;
+    top: 125px;
+}
+.subtitulo2 {
+    font-size: 30px;
+    position: absolute;
+    top: 155px;
+    left: 60px;
+}
+.pizza-titulo {
+    width: 450px;
+    height: 400px;
+}
+.cabecalho {
+    position: absolute;
+    left: 600px;
+    top: 80px;
+    width: auto;
+    margin: 0 auto;
+    
+}
+nav li {
+    display: inline;
+    margin: 0 60px 0 0;
+    
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.principal {
+    background: linear-gradient(#FF533D, #FEFEFE);
+    
+}
+.sobremim {
+    background: linear-gradient(#B82601, #FF533D);
+    font-size: 50px;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 30px 0 30px 0;
+    border-bottom: 2px solid #000000;
+}
+.comida {
+    width: 30%;
+    float: left;
+    margin: 20px 0 20px 30px;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+    
+}   
+.comida:hover {
+    opacity: 0.7;
+}
+.comida-texto {
+    font-size: 30px;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+.ambiente{
+    width: 30%;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+    margin: 280px 0 30px 450px;
+}
+.ambiente:hover {
+    opacity: 0.7;
+}
+.ambiente-texto {
+    font-size: 30px;
+    position:absolute;
+    top: 900px;
+    right: 460px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+.atendimento {
+    width: 30%;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+    margin: 0px 50px 0px 50px;
+}
+.atendimento:hover {
+    opacity: 0.7;
+}
+.atendimento-texto{
+    font-size: 30px;
+    position:absolute;
+    top: 1200px;
+    right: 460px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+.comentarios {
+    font-size: 30px;
+    position:absolute;
+    top: 1500px;
+    left: 460px;
+    font-weight: bold;
+    color: #f7c364;
+    text-shadow: 2px 2px black;
+}
